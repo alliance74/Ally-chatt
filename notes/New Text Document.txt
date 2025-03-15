@@ -1,0 +1,36 @@
+npm i express mongoose dotenv jsonwebtoken bcryptjs cookie-parser cloudinary socket.io
+
+
+
+
+nodemon dependemcies for running app without restarting  
+ npm i nodemon -D
+
+
+some dependencies to use for frontend npm i react-router-dom react-hot-toast 
+⠇
+
+
+axios  for fetching api's 
+we first create axios instance
+
+
+zustand
+
+tailwind css 
+
+
+
+cors helps for fetching data easily
+
+
+react-hot-toast for displaying some text-boxes
+
+
+
+
+
+
+
+
+FbpZniKcxxuOJni7   for lovable
