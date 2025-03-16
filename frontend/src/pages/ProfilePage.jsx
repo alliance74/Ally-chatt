@@ -11,6 +11,14 @@ const ProfilePage = () => {
     const file = e.target.files[0];
     if (!file) return;
 
+
+    const MAX_SIZE = 5 * 1024 * 1024; // 5MB
+    if (file.size > MAX_SIZE) {
+      alert("File size too large! Please select an image below 5MB.");
+      return;
+    }
+  
+
     const reader = new FileReader();
 
     reader.readAsDataURL(file);

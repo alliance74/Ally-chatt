@@ -13,7 +13,8 @@ import path from 'path';
 
 
 import { app,server } from './lib/socket.js'
-
+app.use(express.json({ limit: "15mb" }));
+app.use(express.urlencoded({ limit: "15mb", extended: true }));
 
 
 
